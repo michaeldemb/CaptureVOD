@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["uuid", "timestamp", "event_type"],
+  "properties": {
+    "uuid": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "event_type": { "type": "string" },
+    "descriptor": { "type": "string" }
+  },
+  "additionalProperties": true
+}
