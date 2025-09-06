@@ -1,0 +1,14 @@
+{
+  "name": "capturevod",
+  "version": "1.0.0",
+  "description": "Simple event and HLS capture server",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node tests/run-tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}
